@@ -95,19 +95,15 @@ We have successfully deployed our infrastructure to the **Mantle Testnet** (Chai
 
 ## Quick Start for Agents
 
-If you are evaluating this project and want to test the Agentic Integration, add the following to your `claude_desktop_config.json` or Cursor MCP settings:
+Our infrastructure natively supports the new **WebMCP** standard, allowing any AI agent to discover and call our oracle tools directly from the browser without any API keys or local configuration.
 
-```json
-{
-  "mcpServers": {
-    "tcg-oracle-webmcp": {
-      "command": "tcg-oracle-webmcp"
-    }
-  }
-}
+If you are evaluating this project and want to test the Agentic Integration, simply add this single line to your HTML page:
+
+```html
+<script src="https://oracle.the-undesirables.com/static/tcg-oracle-webmcp.js"></script>
 ```
 
-Then simply ask your AI: *"What is the verified price of a Charizard Base Set on the Mantle Network?"* The agent will automatically query the MCP server, retrieve the Merkle proof, and verify the price against the Mantle Testnet contract.
+Then simply ask your AI: *"What is the verified price of a Charizard Base Set on the Mantle Network?"* The agent will automatically discover the oracle tools via `navigator.modelContext`, retrieve the Merkle proof, and verify the price against the Mantle Testnet contract.
 
 ---
 
