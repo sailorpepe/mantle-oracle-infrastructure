@@ -68,16 +68,16 @@ A natively compiled Tauri/Rust desktop application. It uses local Vision AI to s
 
 ### 2. The Verification Layer (Mantle Network)
 Our smart contracts deployed on the **Mantle Testnet** act as the ultimate source of truth. We publish daily Merkle roots containing 276,000+ RWA prices and hourly TWAP feeds.
-*   **Repository:** [litvm-tcg-oracle](https://github.com/sailorpepe/litvm-tcg-oracle) (Smart Contracts)
+*   **Source Code:** [Mantle Smart Contracts Repository](https://github.com/sailorpepe/litvm-tcg-oracle)
 
 ### 3. The Agent Integration (MCP Server)
 An open-source Python MCP server that allows any AI agent (Claude, ElizaOS) to query our market memory and instantly request a Merkle proof to verify the price against the Mantle blockchain.
-*   **Repository:** [litvm-tcg-oracle-mcp](https://github.com/sailorpepe/litvm-tcg-oracle-mcp) (MCP Codebase)
+*   **Source Code:** [Mantle MCP Agent Server](https://github.com/sailorpepe/litvm-tcg-oracle-mcp)
 *   **Install:** `pip install litvm-tcg-oracle`
 
 ### 4. The Weather Engine (Parametric Data)
 A secondary oracle engine that pulls 1-minute ASOS sensor data from the National Weather Service and cross-references it against Kalshi prediction markets to execute automated parametric DeFi payouts.
-*   **Repository:** [litvm-weather-oracle](https://github.com/sailorpepe/litvm-weather-oracle)
+*   **Source Code:** [Mantle Weather Engine Repository](https://github.com/sailorpepe/litvm-weather-oracle)
 
 ---
 
