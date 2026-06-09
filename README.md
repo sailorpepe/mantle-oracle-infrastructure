@@ -113,7 +113,7 @@ Then simply ask your AI: *"What is the verified price of a Charizard Base Set on
 
 ## 📝 License & Commercial Use
 
-This project is licensed under the **[Business Source License 1.1 (BUSL-1.1)](LICENSE)**.
+This project is licensed under the **[Business Source License 1.1 (BUSL-1.1)](LICENSE.md)**.
 
 **Licensor:** The Undesirables LLC · **Change Date:** 2030-04-27 · **Change License:** Apache License, Version 2.0
 
