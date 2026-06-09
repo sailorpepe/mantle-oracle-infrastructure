@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://the-undesirables.com/logo.png" alt="The Undesirables" width="120">
+  <img src="assets/banner.png" alt="Mantle Sovereign Oracle" width="100%">
 </p>
 
 <h1 align="center">The Undesirables: Sovereign A2A Oracle Infrastructure</h1>
