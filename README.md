@@ -68,7 +68,7 @@ A natively compiled Tauri/Rust desktop application. It uses local Vision AI to s
 
 ### 2. The Verification Layer (Mantle Network)
 Our smart contracts deployed on the **Mantle Testnet** act as the ultimate source of truth. We publish daily Merkle roots containing 276,000+ RWA prices and hourly TWAP feeds.
-*   **Source Code:** [Mantle Smart Contracts Repository](https://github.com/sailorpepe/litvm-tcg-oracle)
+*   **Source Code:** [Mantle Smart Contracts Repository](./contracts)
 
 ### 3. The Agent Integration (MCP Server)
 An open-source Python MCP server that allows any AI agent (Claude, ElizaOS) to query our market memory and instantly request a Merkle proof to verify the price against the Mantle blockchain.
