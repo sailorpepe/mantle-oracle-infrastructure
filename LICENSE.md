@@ -3,7 +3,7 @@ Business Source License 1.1
 Parameters
 
   Licensor:             The Undesirables LLC
-  Licensed Work:        TCG Oracle App
+  Licensed Work:        Mantle Sovereign Oracle Infrastructure
                         Copyright (c) 2026 The Undesirables LLC.
                         All Rights Reserved.
   Additional Use Grant: You may make production use of the Licensed Work,
