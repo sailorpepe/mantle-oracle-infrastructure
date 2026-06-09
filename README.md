@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://the-undesirables.com/litvm"><strong>Live Dashboard</strong></a> ·
   <a href="#on-chain-contracts"><strong>Mantle Contracts</strong></a> ·
-  <a href="https://youtube.com"><strong>Demo Video</strong></a>
+  <a href="https://x.com/sailorpepe_eth/status/2064447041103642978"><strong>Demo Video</strong></a>
 </p>
 
 ---
