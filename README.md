@@ -90,7 +90,6 @@ We have successfully deployed our infrastructure to the **Mantle Testnet** (Chai
 | **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Daily Merkle root for 276,000+ products |
 | **WeatherEdgeOracle** | [`0xe0dCD...53451`](https://explorer.sepolia.mantle.xyz/address/0xe0dCD77D245480CEB830EA66B74849101F853451) | Hourly NWS Parametric data verification |
 
-*(Contract addresses will be updated upon final execution of the deploy scripts).*
 
 ---
 
