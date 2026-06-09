@@ -89,7 +89,7 @@ We have successfully deployed our infrastructure to the **Mantle Testnet** (Chai
 |--------------|---------|---------|
 | **TCGPriceOracleV2** | [`0xA6796...B344cD`](https://explorer.sepolia.mantle.xyz/address/0xA6796c86E9f9019B6ff2a5044be8D0211aB344cD) | Hourly TWAP for top 50 blue-chip RWA cards |
 | **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Daily Merkle root for 276,000+ products |
-| **WeatherEdgeOracle** | `[Pending Deployment]` | Hourly NWS Parametric data verification |
+| **WeatherEdgeOracle** | [`0xe0dCD...53451`](https://explorer.sepolia.mantle.xyz/address/0xe0dCD77D245480CEB830EA66B74849101F853451) | Hourly NWS Parametric data verification |
 
 *(Contract addresses will be updated upon final execution of the deploy scripts).*
 
