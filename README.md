@@ -20,6 +20,12 @@
   <a href="https://x.com/sailorpepe_eth/status/2064447041103642978"><strong>Demo Video</strong></a>
 </p>
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Mantle Oracle Demo" width="480" />
+  <br>
+  <em>Live demo — <a href="https://the-undesirables.com/litvm">try it yourself →</a></em>
+</p>
+
 ---
 
 ## 📑 Table of Contents
@@ -87,7 +93,7 @@ We have successfully deployed our infrastructure to the **Mantle Testnet** (Chai
 | Contract Name | Address | Purpose |
 |--------------|---------|---------|
 | **TCGPriceOracleV2** | [`0xA6796...B344cD`](https://explorer.sepolia.mantle.xyz/address/0xA6796c86E9f9019B6ff2a5044be8D0211aB344cD) | Hourly TWAP for top 50 blue-chip RWA cards |
-| **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Daily Merkle root for 276,000+ products |
+| **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Daily Merkle root for 276,000+ priced products (of 432K indexed) |
 | **WeatherEdgeOracle** | [`0xe0dCD...53451`](https://explorer.sepolia.mantle.xyz/address/0xe0dCD77D245480CEB830EA66B74849101F853451) | Hourly NWS Parametric data verification |
 
 
