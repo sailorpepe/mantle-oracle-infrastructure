@@ -76,7 +76,7 @@ An open-source Python MCP server that allows any AI agent (Claude, ElizaOS) to q
 
 ### 4. The Weather Engine (Parametric Data)
 A secondary oracle engine that pulls 1-minute ASOS sensor data from the National Weather Service and cross-references it against Kalshi prediction markets to execute automated parametric DeFi payouts.
-*   **Source Code:** [Mantle Weather Engine (Source Code on Oracle Node)](#)
+*   **Source Code:** [Weather Engine (Oracle Node)](oracle-node/)
 
 ---
 
