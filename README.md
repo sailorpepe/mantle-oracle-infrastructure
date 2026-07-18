@@ -73,7 +73,7 @@ A natively compiled Tauri/Rust desktop application. It uses local Vision AI to s
 *   **Repository:** [tcg-oracle-app](https://github.com/sailorpepe/tcg-oracle-app) (Rust / React codebase)
 
 ### 2. The Verification Layer (Mantle Network)
-Our smart contracts deployed on the **Mantle Testnet** act as the ultimate source of truth. We publish daily Merkle roots containing 276,000+ RWA prices and hourly TWAP feeds.
+Our smart contracts deployed on the **Mantle Testnet** act as the ultimate source of truth. We publish hourly Merkle roots containing 284,000+ RWA prices and hourly TWAP feeds.
 *   **Source Code:** [Mantle Smart Contracts Repository](./contracts)
 
 ### 3. The Agent Integration (MCP Server)
@@ -93,7 +93,7 @@ We have successfully deployed our infrastructure to the **Mantle Testnet** (Chai
 | Contract Name | Address | Purpose |
 |--------------|---------|---------|
 | **TCGPriceOracleV2** | [`0x1A486...63B4`](https://explorer.sepolia.mantle.xyz/address/0x1A48672001df4F11346D039BD9d67009B37F63B4) | Hourly TWAP for top 50 blue-chip RWA cards |
-| **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Daily Merkle root for 276,000+ priced products (of 432K indexed) |
+| **MerklePriceOracle** | [`0x6B31b...D8072c`](https://explorer.sepolia.mantle.xyz/address/0x6B31b3735D88b148d47255EdAa4DD74A65D8072c) | Hourly Merkle root for 284,000+ priced products (of 446K indexed) |
 | **WeatherEdgeOracle** | [`0xe0dCD...53451`](https://explorer.sepolia.mantle.xyz/address/0xe0dCD77D245480CEB830EA66B74849101F853451) | Hourly NWS Parametric data verification |
 
 
